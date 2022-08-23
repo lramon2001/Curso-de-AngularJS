@@ -31,7 +31,7 @@ Para usar o ng-init basta usar esta sintaxe. O navegador exibirá "o valor de a 
 ```html
   <div ng-init="a=5"> 
   
-  O valor de a é {{a}}
+    O valor de a é {{a}}
   
   </div>
   
@@ -40,14 +40,17 @@ Para usar o ng-if basta usar esta sintaxe. O navegador exibirá "FACE UP, MAKE Y
 ```html
   <div ng-init="visivel=true">
     <div ng-if="visivel">
-      <span>FACE UP, MAKE YOUR STAND. REALIZE, YOU ARE LIVING ON THE GOLDEN YEARS</span>
+      <span>
+        FACE UP, MAKE YOUR STAND. REALIZE, YOU ARE LIVING ON THE GOLDEN YEARS
+      </span>
     </div>
   </div>
 ```
 Outro recurso muito útil é o ng-repeat que consegue apresentar uma lista, na sintaxe que apresentarei vou utilizar a clásula track by para poder repetir itens
 ```html
 <ul ng-init="lista = [1,2,3,4,5,6,6,7,8]">
-
-        <li ng-repeat="item in lista track by $index">indice:{{$index}}- item:{{item}}</li>
+  <li ng-repeat="item in lista track by $index">
+          indice:{{$index}}- item:{{item}}
+  </li>
 </ul>
 ```
