@@ -25,7 +25,7 @@ Para criar um módulo basta utilizar a função module passando o nome que desej
 
 Neste curso desenvolveremos uma aplicação angular. A aula 2 foi destinada a configuração do ambiente e estruturação do projeto.
 
-## Aula 3- Como usar o ng-init
+## Aula 3- Como usar o ng-init, ng-if
 
 Para usar o ng-init basta usar esta sintaxe. O navegador exibirá "o valor de a é 5"
 ```
@@ -35,6 +35,14 @@ Para usar o ng-init basta usar esta sintaxe. O navegador exibirá "o valor de a 
   
   </div>
   
+```
+Para usar o ng-IF basta usar esta sintaxe. O navegador exibirá "FACE UP, MAKE YOUR STAND. REALIZE, YOU ARE LIVING ON THE GOLDEN YEARS" pois o valor da varievel visivel é true
+```
+  <div ng-init="visivel=true">
+    <div ng-if="visivel">
+      <span>FACE UP, MAKE YOUR STAND. REALIZE, YOU ARE LIVING ON THE GOLDEN YEARS</span>
+    </div>
+  </div>
 ```
 
 
