@@ -36,7 +36,7 @@ Para usar o ng-init basta usar esta sintaxe. O navegador exibirá "o valor de a 
   </div>
   
 ```
-Para usar o ng-IF basta usar esta sintaxe. O navegador exibirá "FACE UP, MAKE YOUR STAND. REALIZE, YOU ARE LIVING ON THE GOLDEN YEARS" pois o valor da varievel visivel é true
+Para usar o ng-if basta usar esta sintaxe. O navegador exibirá "FACE UP, MAKE YOUR STAND. REALIZE, YOU ARE LIVING ON THE GOLDEN YEARS" pois o valor da varievel visivel é true. Outras diretivas similares são ng-show e ng-hide. Mas por questões de segurança é fortemente aconselhável utilizar o ng-if
 ```html
   <div ng-init="visivel=true">
     <div ng-if="visivel">
