@@ -6,13 +6,13 @@ AngularJS📚🅰️-Repositório criado para estudar o framework AngularJS
 
 Para iniciar uma aplicação Angular Js basta adicionar a biblioteca no template usando uma tag script 
 
-```
+```html
   <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
 ```
 
 Para criar um módulo basta utilizar a função module passando o nome que deseja para o módulo e as dependências do modulo no array
 
-```
+```html
 <script>
     angular.module('myApp',[]);
 </script>
@@ -28,7 +28,7 @@ Neste curso desenvolveremos uma aplicação angular. A aula 2 foi destinada a co
 ## Aula 3- Como usar o ng-init, ng-if
 
 Para usar o ng-init basta usar esta sintaxe. O navegador exibirá "o valor de a é 5"
-```
+```html
   <div ng-init="a=5"> 
   
   O valor de a é {{a}}
@@ -37,7 +37,7 @@ Para usar o ng-init basta usar esta sintaxe. O navegador exibirá "o valor de a 
   
 ```
 Para usar o ng-IF basta usar esta sintaxe. O navegador exibirá "FACE UP, MAKE YOUR STAND. REALIZE, YOU ARE LIVING ON THE GOLDEN YEARS" pois o valor da varievel visivel é true
-```
+```html
   <div ng-init="visivel=true">
     <div ng-if="visivel">
       <span>FACE UP, MAKE YOUR STAND. REALIZE, YOU ARE LIVING ON THE GOLDEN YEARS</span>
