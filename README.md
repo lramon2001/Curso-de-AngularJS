@@ -16,3 +16,5 @@ Para criar um módulo basta utilizar a função module passando o nome que desej
 
 ```
 [Clique aqui para acessar o código fonte da aula](https://github.com/lramon2001/Curso-de-AngularJS/blob/main/aula1.html);
+
+
