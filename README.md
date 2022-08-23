@@ -25,6 +25,16 @@ Para criar um módulo basta utilizar a função module passando o nome que desej
 
 Neste curso desenvolveremos uma aplicação angular. A aula 2 foi destinada a configuração do ambiente e estruturação do projeto.
 
+## Aula 3- Como usar o ng-init
 
+Para usar o ng-init basta usar esta sintaxe. O navegador exibirá "o valor de a é 5"
+```
+  <div ng-init="a=5"> 
+  
+  O valor de a é {{a}}
+  
+  </div>
+  
+```
 
 
