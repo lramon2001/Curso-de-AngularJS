@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS</title>
+</head>
+<body>
+
+<div ng-app="myApp">
+    App AngularJS: {{5+2}}
+    <ul ng-init="lista = [1,2,3,4,5,6,6,7,8]">
+
+        <li ng-repeat="item in lista track by $index">indice:{{$index}}- item:{{item}}</li>
+    </ul>
+
+    <div ng-init="a=5">
+        O valor de é {{a}}
+    </div>
+
+    <div ng-init="visivel = false">
+        <span ng-if="visivel">
+        Faça elevar, o cosmo no seu coração
+        </span>
+    </div>
+
+   
+
+
+</div>
+
+<!--Incluir a biblioteca do Angular para iniciar a aplicação-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.4/angular.min.js"></script>
+
+<!--Criação de módulos-->   
+<script>
+    angular.module('myApp',[]);
+</script>
+   
+</body>
+</html>
