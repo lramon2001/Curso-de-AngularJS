@@ -1,6 +1,8 @@
 # Curso-de-AngularJS
 AngularJS📚🅰️-Repositório criado para estudar o framework AngularJS
-
+Clique aqui para acessar o código fonte da aula desejada
+- [Aula 1](https://github.com/lramon2001/Curso-de-AngularJS/blob/main/aula1.html)
+- [Aula 3]()
 
 ## Aula 1-Como iniciar uma aplicação Angular e criar módulos
 
@@ -18,8 +20,6 @@ Para criar um módulo basta utilizar a função module passando o nome que desej
 </script>
 
 ```
-
-[Clique aqui para acessar o código fonte da aula](https://github.com/lramon2001/Curso-de-AngularJS/blob/main/aula1.html)
 
 ## Aula 2- Iniciando o projeto
 
