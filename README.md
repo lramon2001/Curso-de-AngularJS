@@ -59,7 +59,7 @@ Outro recurso muito útil é o ng-repeat que consegue apresentar uma lista, na s
 
 Para usar o ng-style primeiro devemos criar uma variavel json com o estilo que desejamos adotar. Depois atribuimos esta variavel ao ng-style. Já o ng-click devemos declarar o evento que esperamos. Fica mais fácil com a demonstração em código. Se julgar necessário, repita ai no seu navegador
 ```html
-<div ng-init= "meu estilo = {'color': 'green'}">
+<div ng-init= "meuEstilo = {'color': 'green'}">
   <span ng-style = "meuEstilo"> O Hexa vem </span>
   <button ng-click="meuEstilo = {'color':'yellow'}">Clique aqui </button>
 </div>
