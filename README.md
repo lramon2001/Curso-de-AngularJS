@@ -25,7 +25,7 @@ Para criar um módulo basta utilizar a função module passando o nome que desej
 
 Neste curso desenvolveremos uma aplicação angular. A aula 2 foi destinada a configuração do ambiente e estruturação do projeto.
 
-## Aula 3- Como usar o ng-init, ng-if
+## Aula 3- Como usar o ng-init, ng-if,  ng-show e ng-hide
 
 Para usar o ng-init basta usar esta sintaxe. O navegador exibirá "o valor de a é 5"
 ```html
@@ -54,3 +54,6 @@ Outro recurso muito útil é o ng-repeat que consegue apresentar uma lista, na s
   </li>
 </ul>
 ```
+
+## Aula 4 - Como usar o ng-style e o ng-click
+
