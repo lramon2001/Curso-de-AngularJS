@@ -121,3 +121,12 @@ a.myTitle = 'Opalão seis bocas';
 ```
 
 Isso provavelmente funcionaria
+
+- A maneira mais indicada de declarar depedencias é utiilizando o $inject. Exemplo:
+```js
+angular.module('myApp').controller(myController,'myController');
+myController.$inject = ['$scope'];
+function myController(a){
+  a.myTitle = 'Qual a diferença entre o charme e o funk';
+}
+```
