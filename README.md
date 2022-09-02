@@ -102,4 +102,22 @@ como a função controller podemos declarar uma nova controller passando por par
 
 É importante ressaltar a necessidade de importar o app.js e o myController pro template
 
+- Outro ponto da aula aborda o $scope como dependência da função da controller. Por exemplo se a função myController fosse implementada assim :
+```js
+angular.module('myApp').controller('myController',myController);
+function myController(a){
+      a.myTitle = 'Lucas Ramon';
+  }
+```
+Retornaria um erro pois o navegador não saberia como interpretar a variável a.
 
+No entanto, poderiamos declara o $scope como dependência do controller.Dessa maneira aqui:
+```js
+angular.module('myApp').controller(myController,['$scope',myController]);
+function myController(a){
+
+a.myTitle = 'Opalão seis bocas';
+}
+```
+
+Isso provavelmente funcionaria
