@@ -82,3 +82,12 @@ app.controller('ExemploController', ['$scope', function($scope) {
 }]);
 
 ```
+A aula 5 foi longa e cheia de informações. Por isso optei por listar explicando as etapas
+
+- Criar o arquivo app.js com o seguinte código criando o módulo
+
+```js
+  angular.module('myApp',[]);
+```
+
+- 
