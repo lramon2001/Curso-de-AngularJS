@@ -64,3 +64,10 @@ Para usar o ng-style primeiro devemos criar uma variavel json com o estilo que d
   <button ng-click="meuEstilo = {'color':'yellow'}">Clique aqui </button>
 </div>
 ```
+
+## Aula 5 - Como utilizar controllers
+
+- Controller é a camada da arquitetura que deve conter a implementação da lógica e o envio de dados para os nossos templates;
+- Para o Angular, um controller basicamente é uma função construtora com um objeto chamado $scope;
+- $scope representa o meio campo entre um controller e uma view;
+- $scope é capaz de passar variáveis e até mesmo funções do controller para a view. O inverso também é válido: é possível repassar informações da view para o controller utilizando o $scope.
