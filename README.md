@@ -90,4 +90,16 @@ A aula 5 foi longa e cheia de informações. Por isso optei por listar explicand
   angular.module('myApp',[]);
 ```
 
-- 
+- Criar um arquivo chamado myController.js com o seguinte código
+```js
+  angular.module('myApp').controller('myController',myController);
+  
+  function myController($scope){
+    $scope.myTitle = 'Lucas Ramon';
+  }
+```
+como a função controller podemos declarar uma nova controller passando por parâmetro o nome da nova controller e a função que aquela controller implementa. Poderíamos passar por parâmetro um função anônima no lugar do nome da função, mas não seria uma boa prática. Outra boa prática presente na declaração seria o nome da controller coincidir com a função que implementa a controller. 
+
+É importante ressaltar a necessidade de importar o app.js e o myController pro template
+
+
