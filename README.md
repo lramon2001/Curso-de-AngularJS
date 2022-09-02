@@ -130,3 +130,17 @@ function myController(a){
   a.myTitle = 'Qual a diferença entre o charme e o funk';
 }
 ```
+
+Usando ng-model
+
+```js
+angular.module('myApp').controller('myController',[myController,'$scope']);
+
+function myController (a) {
+    a.myTitle = "Teste";
+}
+```
+E no template utilizar o ng-model com 
+```html
+<input type = "text" ng-model="myTitle">
+```
