@@ -144,3 +144,7 @@ E no template utilizar o ng-model com
 ```html
 <input type = "text" ng-model="myTitle">
 ```
+
+## Aula 6 - Entendendo mais sobre o $scope
+
+
